@@ -1,0 +1,64 @@
+
+.col{
+    margin-left: 200px;
+}
+
+.icons{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+  }
+  .menu{
+      text-decoration: none;
+      color: black;
+  }
+  .menu:hover{
+      text-decoration: none;
+      color: black;
+  }
+.container {
+      margin-top: 5px;
+      margin-bottom: 5px;
+  }
+  #footer.container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.logo{
+    vertical-align: center;
+    margin-left: 70px;
+}
+#logo{
+    margin-left: 70px;
+}
+ul{
+    list-style-type: none;
+}
+ol.breadcrumb{
+    background-color: white;
+}
+.z-1{
+    z-index: 21;
+}
+#sale{
+    color: grey;
+}
+#origin-price{
+    color: red;
+}
+#name-pro{
+    text-decoration: none;
+    color: black;
+}
+.box-text{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+@media (min-width: 576px){
+.col-sm {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    max-width: 100%;
+    flex-grow: unset;
+}}
